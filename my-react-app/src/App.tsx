@@ -44,10 +44,10 @@ const App = () => {
           <div className="flex items-center justify-center xl:justify-start">
             <div className="mt-28 text-center xl:text-left">
               <h1 className="font-semibold text-2xl md:text-4xl lg:text-5xl text-gray-900 leading-normal mb-6">
-              Web3Modal: <br /> Simple, intuitive wallet login.
+              Web3Modal: <br /> Simple, intuitive wallet<br class="lg:hidden xl:block"/> login.
               </h1>
               <p className="font-normal text-xl text-gray-400 leading-relaxed mb-12">
-              With this drop-in UI SDK, enable any wallet's users to <br /> seamlessly log in to your app and enjoy a smooth, unified experience.
+              With this drop-in UI SDK, enable any wallet's users to <br /> seamlessly log in to your app and enjoy a smooth, <br class="lg:hidden xl:block"/> unified experience.
               </p>
               <a className="px-6 py-4  text-white font-semibold text-lg rounded-xl transition ease-in-out duration-500">
               <ConnectButton />
