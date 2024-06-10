@@ -6,7 +6,6 @@
  * contains a heading, a subheading, and a paragraph with a link.
  */
 
-import navbarLogo from './assets/image/navbar-logo.png';
 import homeImg from './assets/image/home-img.png';
 import testimoni1 from './assets/image/testimoni-1.png';
 import testimoni2 from './assets/image/testimoni-2.png';
@@ -64,7 +63,7 @@ const App = () => {
       <section className="bg-white py-10 md:py-16 xl:relative">
         <div className="container max-w-screen-xl mx-auto px-4">
           <div className="flex flex-col xl:flex-row justify-end">
-            <div className="hidden xl:block xl:absolute left-0 top-0 w-1/2 h-1/3">
+            <div className="hidden xl:block xl:absolute left-5 top-0 w-2/5">
               <img src= 'https://cdn1.vectorstock.com/i/1000x1000/39/60/digital-mobile-e-wallet-concept-vector-11813960.jpg' alt="Feature img" />
             </div>
             <div>
